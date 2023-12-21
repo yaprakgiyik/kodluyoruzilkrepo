@@ -14,13 +14,13 @@
             border-bottom: 1px solid black; /* Add an underline using a border */
            
             padding: 0 10px; /* Optional: Add some padding for spacing */
-            
+            text-align: center;
         }
-       ul
+        .yaprak .blue-text {
+            color: blue; /* Change the color to your desired value */
+        }
 
          ul,ol {
-            
-            text-align: center;
             padding: 0;
         }
 
@@ -28,18 +28,23 @@
             display: block;
             text-align: left;
             margin: 0 auto;
-            max-width: 300px;
-          
-            
+            max-width: 300px;                      
         }
         .red-paragraph{
-            text-align: center;
+            text-align: left;
             background-color: rgb(185, 146, 146);
-            display: inline-block;
+            display: block;
             border-radius: 10px; /* Optional: Add rounded corners */
             color: white;
-            
+            margin: 0 auto; /* Reset default margin */
+            padding: 10px;
+            max-width: 400px;
         }
+        p .red-paragraph{
+            text-align: right;
+        }
+   
+        
     </style>
 </head>
 <body>
@@ -47,24 +52,25 @@
     <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aliquam at magni beatae eligendi deserunt quod nemo consequatur! Vel voluptatum, voluptatem et fugit, dignissimos earum ipsum ipsa nulla, nam eum in maxime corrupti reiciendis. Delectus laudantium perspiciatis iusto voluptates dolores voluptatem neque debitis numquam repellendus magni omnis, ducimus earum repudiandae.</p>
 
     <p><strong>Tarif:</strong>Yaprak Giyik</p>
+ 
     <div class="yaprak">
  
-    <p>Kac Kisilik:4 kisilik</p>
-    <p>Hazirlama Suresi:30 dakika</p>
-    <p>Pisirme Suresi:10 dakika</p>
+    <p><span class="blue-text">Kac Kisilik:</span>4 kisilik</p>
+    <p><span class="blue-text">Hazirlama Suresi:</span>30 dakika</p>
+    <p><span class="blue-text">Pisirme Suresi:</span>10 dakika</p>
     </div> 
    
     <p class="red-paragraph">Cikolata Kupleri Tarifi icin Malzemeler</p>
     
     
-    <ul >
+    <ul class="a">
         <li>Lorem, ipsum dolor.</li>
         <li>Animi, cupiditate tempora.</li>
         <li>Autem, a modi.</li>
         <li>Nam, illum similique.</li>
     </ul>
     <p class="red-paragraph">Cikolata kupleri nasil yapilir</p>
-   <ol>
+   <ol class="b">
     <li>Lorem ipsum dolor sit amet.</li>
     <li>Omnis repellendus illum corrupti suscipit.</li>
     <li>Architecto non eos nobis consequuntur.</li>
